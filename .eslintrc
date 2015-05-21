@@ -1,0 +1,34 @@
+{
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "globals": {},
+    "rules": {
+        "brace-style": [2, "stroustrup", { "allowSingleLine": false }],
+        "default-case": true,
+        "new-cap": false, // for things like Immutable.Map()
+        "no-catch-shadow": true,
+        "no-eq-null": true,
+        "no-floating-decimal": true,
+        "no-inline-comments": true,
+        "no-nested-ternary": true,
+        "no-param-reassign": true,
+        "no-reserved-keys": true,
+        "no-self-compare": true,
+        "no-throw-literal": true,
+        "no-undefined": true,
+        "no-void": true,
+        "quotes": [1, "double"],
+        "space-after-keywords": "always",
+        "space-after-blocks": "always",
+        "wrap-iife": [2, "outside"]
+    },
+    "ecmaFeatures": {
+        "modules": true,
+        "blockBindings": true,
+        "forOf": true,
+        "jsx": true
+    },
+    "plugins": []
+}

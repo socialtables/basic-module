@@ -1,7 +1,6 @@
 {
-  "name": "basic-module",
+  "name": "@socailtalbes/basic-module",
   "version": "1.0.0",
-  "private": true,
   "main": "index.js",
   "directories": {
     "test": "test"
